@@ -1,0 +1,85 @@
+.bg-img{
+    background-image: url(leaf-1280x800.jpg);
+    height: 533px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+@media only screen and (max-width: 600px) {
+    background-image:url(https://www.wallpaperup.com/uploads/wallpapers/2012/02/26/1375/d880fba3f61720423ef9ffac5125f93f-700.jpg);
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    background:rgba(0, 0, 0, 0.52);
+    box-sizing: content-box;
+    width: 100%;
+    height: 533px;
+    background-size: cover;
+    color:white;  
+}
+header::after{
+    box-sizing: content-box;
+}
+.logo{
+    /* opacity: 2; */
+    margin: 100px 0;
+}
+.logo > a{
+    font-size: 22px;
+    margin-right: 20px;
+    color: white;
+}
+.logo > a:hover{
+    color:rgb(207, 178, 178);
+}
+.sub-heads> a{
+    padding-bottom: 20px;
+    font-size:18px;
+    margin-left: 25px;
+    color: white;
+}
+.sub-heads> a:hover{
+    text-decoration: none;
+    color:rgb(207, 178, 178);
+    border-bottom: 10px solid white;
+}
+.personal{
+    margin-top:30px;
+}
+.private> img{
+    margin-top: 50px;
+}
+.private{
+    border-bottom: 1px solid #eee;
+   padding-bottom:40px;
+
+}
+.lonely{
+    margin-top:30px;
+}
+.evening{
+    border-bottom: 1px solid #eee;
+    padding-bottom:40px;
+}
+.evening > p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    color: rgb(73, 72, 72)
+}
+.foot{
+    background-color:#2c3e50;
+    height: 500px;
+    color: whitesmoke;
+    padding: 40px;
+}
+.proper{
+    padding: 10px;
+    font-size: 12px;
+}
+
+
